@@ -8,35 +8,18 @@ const Landing: React.FC = () => {
         <h1 className=' text-xl font-extralight'>Landing Page</h1>
       </div>
       <Card />
-      {/* Small Buttons */}
-      <div className='flex gap-4'>
-        <Button title='Small - Rounded Sm' styles='text-sm rounded-sm' />
-        <Button title='Small - Rounded Md' styles='text-sm rounded-md' />
-        <Button title='Small - Rounded Full' styles='text-sm rounded-full' />
-      </div>
-
-      {/* Medium Buttons */}
-      <div className='flex gap-4'>
-        <Button title='Medium - Rounded Sm' styles='text-base rounded-sm' />
-        <Button title='Medium - Rounded Md' styles='text-base rounded-md' />
-        <Button title='Medium - Rounded Full' styles='text-base rounded-full' />
-      </div>
-
-      {/* Large Buttons */}
-      <div className='flex gap-4'>
-        <Button
-          title='Large - Rounded Sm'
-          styles='text-lg px-6 py-3 rounded-sm'
-        />
-        <Button
-          title='Large - Rounded Md'
-          styles='text-lg px-6 py-3 rounded-md'
-        />
-        <Button
-          title='Large - Rounded Full'
-          styles='text-lg px-6 py-3 rounded-full'
-        />
-      </div>
+      <Button
+        title='Click'
+        styles='bg-blue-500 text-white text sm rounded-sm'
+      />
+      <Button
+        title='Click'
+        styles='bg-blue-500 text-white text sm rounded-lg'
+      />
+      <Button
+        title='Click'
+        styles='bg-blue-500 text-white text sm rounded-full'
+      />
     </>
   );
 };
